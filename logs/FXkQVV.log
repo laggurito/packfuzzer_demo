@@ -1,0 +1,8 @@
+[DEBUG]--2023-04-16 16:58:26,199-Database.py->createDatabase line:34: 主数据库创建成功
+
+[DEBUG]--2023-04-16 16:58:26,242-Database.py->createProjectDatabase line:104: 数据库创建成功
+
+[INFO]--2023-04-16 16:58:26,245-ParseJs.py->requestUrl line:41: [16:58:26] 目标站点：https://www.bountyteam.com/
+
+[INFO]--2023-04-16 16:58:26,248-ParseJs.py->requestUrl line:42: [16:58:26] 正在解析网页中...
+

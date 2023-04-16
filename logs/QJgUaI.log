@@ -1,0 +1,4 @@
+[DEBUG]--2023-04-16 16:53:39,546-Database.py->createDatabase line:34: 主数据库创建成功
+
+[ERROR]--2023-04-16 16:53:39,546-Database.py->createProjectDatabase line:106: [Err] 'Utils' object has no attribute 'creatSometing'
+

@@ -1,0 +1,20 @@
+[DEBUG]--2023-04-16 16:56:38,816-Database.py->createDatabase line:34: 主数据库创建成功
+
+[ERROR]--2023-04-16 16:56:38,817-Database.py->createProjectDatabase line:106: [Err] 'Utils' object has no attribute 'creatSometing'
+
+[INFO]--2023-04-16 16:56:38,820-ParseJs.py->requestUrl line:41: [16:56:38] 目标站点：https://www.bountyteam.com/
+
+[INFO]--2023-04-16 16:56:38,823-ParseJs.py->requestUrl line:42: [16:56:38] 正在解析网页中...
+
+[DEBUG]--2023-04-16 16:56:38,826-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 16:56:39,923-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET / HTTP/1.1" 200 1699
+
+[DEBUG]--2023-04-16 16:56:39,923-ParseJs.py->requestUrl line:86: scriptCrawling模块正常
+
+[INFO]--2023-04-16 16:56:39,933-ParseJs.py->dealJs line:139: [16:56:39] 网页解析完毕，共发现4个JS文件
+
+[ERROR]--2023-04-16 16:56:39,933-DownloadJs.py->downloadJs line:86: [Err] 'Utils' object has no attribute 'getFilename'
+
+[ERROR]--2023-04-16 16:56:39,933-ParseJs.py->requestUrl line:95: [Err] 'Utils' object has no attribute 'getFilename'
+

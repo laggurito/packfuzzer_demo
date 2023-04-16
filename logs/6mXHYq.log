@@ -1,0 +1,32 @@
+[DEBUG]--2023-04-16 16:30:26,615-Database.py->createDatabase line:34: 主数据库创建成功
+
+[DEBUG]--2023-04-16 16:30:26,649-Database.py->createProjectDatabase line:104: 数据库创建成功
+
+[INFO]--2023-04-16 16:30:26,653-ParseJs.py->requestUrl line:41: [16:30:26] 目标站点：https://www.bountyteam.com/
+
+[INFO]--2023-04-16 16:30:26,656-ParseJs.py->requestUrl line:42: [16:30:26] 正在解析网页中...
+
+[DEBUG]--2023-04-16 16:30:26,660-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 16:30:28,217-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET / HTTP/1.1" 200 1699
+
+[DEBUG]--2023-04-16 16:30:28,220-ParseJs.py->requestUrl line:86: scriptCrawling模块正常
+
+[INFO]--2023-04-16 16:30:28,227-ParseJs.py->dealJs line:139: [16:30:28] 网页解析完毕，共发现4个JS文件
+
+[DEBUG]--2023-04-16 16:30:28,228-DownloadJs.py->downloadJs line:84: js黑名单函数正常
+
+[INFO]--2023-04-16 16:30:28,235-DownloadJs.py->downloadJs line:111: [16:30:28] 正在下载：chunk-vendors.27409629.js
+
+[DEBUG]--2023-04-16 16:30:28,236-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 16:30:29,519-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET /js/chunk-vendors.27409629.js HTTP/1.1" 200 1498705
+
+[INFO]--2023-04-16 16:30:30,674-DownloadJs.py->downloadJs line:111: [16:30:30] 正在下载：app.f4699641.js
+
+[DEBUG]--2023-04-16 16:30:30,675-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 16:30:31,568-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET /js/app.f4699641.js HTTP/1.1" 200 899504
+
+[DEBUG]--2023-04-16 16:30:34,741-ParseJs.py->requestUrl line:93: dealjs函数正常
+

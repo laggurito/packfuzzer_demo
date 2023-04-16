@@ -1,0 +1,40 @@
+[DEBUG]--2023-04-16 17:02:39,834-Database.py->createDatabase line:34: 主数据库创建成功
+
+[DEBUG]--2023-04-16 17:02:39,870-Database.py->createProjectDatabase line:104: 数据库创建成功
+
+[INFO]--2023-04-16 17:02:39,873-ParseJs.py->requestUrl line:41: [17:02:39] 目标站点：https://www.bountyteam.com/
+
+[INFO]--2023-04-16 17:02:39,876-ParseJs.py->requestUrl line:42: [17:02:39] 正在解析网页中...
+
+[DEBUG]--2023-04-16 17:02:39,880-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 17:02:40,546-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET / HTTP/1.1" 200 1699
+
+[DEBUG]--2023-04-16 17:02:40,549-ParseJs.py->requestUrl line:87: scriptCrawling模块正常
+
+[INFO]--2023-04-16 17:02:40,556-ParseJs.py->dealJs line:140: [17:02:40] 网页解析完毕，共发现4个JS文件
+
+[DEBUG]--2023-04-16 17:02:40,557-DownloadJs.py->downloadJs line:84: js黑名单函数正常
+
+[INFO]--2023-04-16 17:02:40,564-DownloadJs.py->downloadJs line:111: [17:02:40] 正在下载：app.f4699641.js
+
+[DEBUG]--2023-04-16 17:02:40,565-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 17:02:41,467-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET /js/app.f4699641.js HTTP/1.1" 200 899504
+
+[INFO]--2023-04-16 17:02:44,122-DownloadJs.py->downloadJs line:111: [17:02:44] 正在下载：chunk-vendors.27409629.js
+
+[DEBUG]--2023-04-16 17:02:44,128-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 17:02:45,377-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET /js/chunk-vendors.27409629.js HTTP/1.1" 200 1498705
+
+[DEBUG]--2023-04-16 17:02:54,361-ParseJs.py->requestUrl line:94: dealjs函数正常
+
+[INFO]--2023-04-16 17:02:54,385-Recoverspilt.py->checkCodeSpilting line:72: [17:02:54] 疑似存在JS异步加载：tmp\Yv1lmY_www.bountyteam.com\OKANuV.chunk-vendors.27409629.js
+
+[INFO]--2023-04-16 17:02:54,409-Recoverspilt.py->checkSpiltingTwice line:108: [17:02:54] 正在暴力检测JS文件中...
+
+[DEBUG]--2023-04-16 17:03:06,873-Recoverspilt.py->recoverStart line:164: checkSpiltingTwice模块正常
+
+[INFO]--2023-04-16 17:03:06,877-Recoverspilt.py->recoverStart line:167: [17:03:06] JS文件收集结束，开始提取平台API...
+

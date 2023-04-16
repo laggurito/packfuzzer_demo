@@ -1,0 +1,20 @@
+[DEBUG]--2023-04-16 16:57:42,706-Database.py->createDatabase line:34: 主数据库创建成功
+
+[ERROR]--2023-04-16 16:57:42,706-Database.py->createProjectDatabase line:106: [Err] 'Utils' object has no attribute 'creatSometing'
+
+[INFO]--2023-04-16 16:57:42,709-ParseJs.py->requestUrl line:41: [16:57:42] 目标站点：https://www.bountyteam.com/
+
+[INFO]--2023-04-16 16:57:42,712-ParseJs.py->requestUrl line:42: [16:57:42] 正在解析网页中...
+
+[DEBUG]--2023-04-16 16:57:42,714-connectionpool.py->_new_conn line:1003: Starting new HTTPS connection (1): www.bountyteam.com:443
+
+[DEBUG]--2023-04-16 16:57:43,498-connectionpool.py->_make_request line:456: https://www.bountyteam.com:443 "GET / HTTP/1.1" 200 1699
+
+[DEBUG]--2023-04-16 16:57:43,501-ParseJs.py->requestUrl line:86: scriptCrawling模块正常
+
+[INFO]--2023-04-16 16:57:43,507-ParseJs.py->dealJs line:139: [16:57:43] 网页解析完毕，共发现4个JS文件
+
+[DEBUG]--2023-04-16 16:57:43,508-DownloadJs.py->downloadJs line:84: js黑名单函数正常
+
+[ERROR]--2023-04-16 16:57:43,509-ParseJs.py->requestUrl line:95: [Err] unable to open database file
+
